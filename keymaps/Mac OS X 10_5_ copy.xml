@@ -9,6 +9,7 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="Console.TableResult.FindInGrid" />
   <action id="Debug" />
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -19,6 +20,9 @@
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="Go To Tab #1">
     <keyboard-shortcut first-keystroke="alt 1" />
@@ -76,4 +80,5 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
+  <action id="Vcs.Log.GoToRef" />
 </keymap>
